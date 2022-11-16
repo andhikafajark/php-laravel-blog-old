@@ -4,10 +4,17 @@ module.exports = {
         "./app/Http/Controllers/**/*.php",
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
-        "./resources/**/*.vue"
+        "./resources/**/*.vue",
+        "./Modules/*/Http/Controllers/**/*.php",
+        "./Modules/**/*.blade.php",
+        "./Modules/**/*.js",
+        "./Modules/**/*.vue",
+        "./node_modules/flowbite/**/*.js"
     ],
     theme: {
         extend: {},
     },
-    plugins: []
+    plugins: [
+        require('flowbite/plugin')
+    ]
 }

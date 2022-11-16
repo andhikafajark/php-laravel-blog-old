@@ -195,6 +195,16 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Dependency Injection Service Providers...
+         */
+        App\Providers\UserServiceProvider::class,
+
+        /*
+         * Modules Service Providers...
+         */
+        Modules\AuditTrail\Providers\AuditTrailServiceProvider::class,
+        Modules\Auth\Providers\AuthServiceProvider::class,
     ],
 
     /*

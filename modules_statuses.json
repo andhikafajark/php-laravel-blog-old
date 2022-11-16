@@ -1,0 +1,5 @@
+{
+    "Auth": true,
+    "AuditTrail": true,
+    "Blog": true
+}
